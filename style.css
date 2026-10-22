@@ -1,0 +1,30 @@
+/* --- CONFIGURACIÓN DE TIPOGRAFÍAS --- */
+
+/* Textos de párrafo y cuerpo general */
+body, p, .texto-parrafo {
+    font-family: 'Clear Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+/* Títulos principales y secundarios */
+h1, h2, h3, h4, h5, h6, .titulo {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: bold;
+}
+
+/* Detalles, botones, etiquetas o elementos destacados */
+.detalle, .btn, .badge, .accent-text {
+    font-family: 'WC Mano Negra Bold', sans-serif;
+}
+
+/* --- MANEJO DE TRANSPARENCIA EN IMÁGENes --- */
+
+.imagen-transparente {
+    opacity: 0.85; /* Valor ajustable de 0.0 a 1.0 */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Efecto opcional al pasar el cursor por encima de la imagen */
+.imagen-transparente:hover {
+    opacity: 1.0;
+}
